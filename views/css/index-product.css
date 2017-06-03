@@ -1,0 +1,55 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.wrapper {
+    width: 1000px;
+    margin: auto;
+}
+.row.mot h3 {
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 32px;
+}
+.thumbnail img:hover {
+	opacity: 0.7;
+}
+.caption {
+    padding: 0px;
+}
+
+.caption h3 {
+    color: rgba(37, 154, 133, 0.7);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.caption p {
+    font-size: 16px;
+    color: #040101;
+}
+
+p.intruction {
+    color: rgba(72, 64, 64, 0.64);
+}
+
+.btn.btn-primary {
+    padding: 15px 40px;
+    border-radius: 27px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    background: #3ad1d1;
+    border: none;
+    box-shadow: 0 5px 7px 5px rgba(58,209,209,0.35);
+}
+
+.btn.btn-primary:hover {
+	background: #333333;
+	transition: all 0.5s ease;
+}
+
+.col-xs-3.col-sm-3.col-md-3.col-lg-3 {
+	padding-left: 0px;	
+}

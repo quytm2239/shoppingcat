@@ -1,0 +1,150 @@
+header img{
+    width: 100%;
+    height: 400px;
+}
+.main{
+    font-size: 17px;
+    padding: 15px 0;
+    font-family: inherit;
+}
+.main a{
+    color: darkgray;
+    text-decoration: none;
+}
+.main a:hover{
+    color: cornflowerblue;
+    transition: all 0.6s;
+    transform: translate3d(0, 0, 0);
+}
+.main p{
+    color: darkgray;
+}
+.main h3{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.main li{
+    list-style: none;
+    padding: 0 0;
+    margin: 0 0;
+}
+.main ul{
+    padding: 0 0;
+}
+.main img{
+    width: 100%;
+}
+.main div{
+    padding: 0 0;
+    margin: 0 0;
+}
+.s-input{
+    float: left;
+    margin: 0 0 0 0 !important;
+}
+.s-btn{
+    height: 44px !important;
+    padding: 0 12px 0 0;
+    border-left: none;
+    background-color: white;
+    margin: 0 0 10px 0;
+}
+.btn-default:hover{
+    background-color: white;
+}
+.s-box{
+    padding: 21px 12px !important;
+    width: 350px !important;
+    margin: 0 0 10px 0 !important;
+}
+.s-btn i {
+    font-size: 19px !important;
+    margin-top: 6px !important;
+}
+.s-btn i:hover{
+    color: cornflowerblue !important;
+    transition: all 0.6s !important;
+}
+.recentart_list div{
+    padding: 8px 6px;
+}
+.artlist a{
+    color: #00abb3;
+    font-style: italic;
+}
+.artlist a:hover{
+    color: #082326;
+    transition: all 0.6s;
+}
+.artlist hr{
+    width: 95%;
+}
+#list .glyphicon{
+    color: darkgray;
+}
+.right_column{
+    padding-left: 60px !important;
+}
+.right_column a{
+    color: #00abb3;
+    font-style: italic;
+}
+.right_column a:hover{
+    color: darkgray;
+    transition: all 0.6s;
+}
+.tagss a{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(189, 182, 189);
+    display: inline-block;
+    color: rgb(189, 187, 189);
+    font-family: Arial;
+    font-size: 15px;
+    padding: 8px 15px;
+    text-decoration: none;
+    margin: 5px 5px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.tagss a:hover{
+    color: white;
+    background-color: #00caff;
+}
+.glyphicon-tag{
+    font-size: 10px;
+}
+.right_column img{
+    width: 36%
+}
+.right_column h3{
+    margin: 9px 0;
+}
+.right_column p{
+    padding-top: 20px;
+}
+.btn_toolbar a{
+    color: white;
+    box-shadow: 0 15px 20px 5px rgba(58,209,209,0.35);
+    background-color: rgb(104, 196, 230);
+    border-radius: 42px;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 26px 32px;
+    text-decoration: none;
+    text-shadow: rgb(61, 118, 138) 0px 1px 0px;
+}
+.btn_toolbar a:hover{
+    color: white;
+    background-color: #0e2226;
+    box-shadow: #0e2226;
+    transition: all 0.63s;
+}
+.right_column{
+    padding-left: 15px;
+}
+
+

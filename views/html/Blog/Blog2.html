@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../../css/index-style.css">
+    <link rel="stylesheet" href="../../css/Blog2.css">
+    <script src="../../JS/jquery.js"></script>
+    <script src="../../JS/jquery-3.2.1.min.js"></script>
+    <script
+            src="http://code.jquery.com/jquery-1.10.2.js"
+            integrity="sha256-it5nQKHTz+34HijZJQkpNBIHsjpV8b6QzMJs9tmOBSo="
+            crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+            $("#header").load("../common/header.html");
+            $("#footer").load("../common/footer.html");
+        });
+    </script>
+</head>
+<body>
+
+<div id="header"></div>
+<div class="container main">
+    <p><a href="#">Home</a> / Blog</p><br>
+    <div class="col-sm-4 left_column">
+        <div class="search_box">
+            <form>
+                <div class="input-group s-input">
+                    <input type="text" class="form-control s-box" placeholder="Search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default s-btn" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="container-fluid recentart_list">
+            <h3>recent articles</h3>
+            <ul id="list" class="artlist">
+                <li>
+                    <div class="art1 container-fluid">
+                        <div class="col-sm-5 img1">
+                            <img src="http://cdn.shopify.com/s/files/1/1774/5405/articles/blog1-min_1024x1024.jpg?v=1487839818" alt="See you in sneakers!">
+                        </div>
+                        <div class="col-sm-7 info1">
+                            <p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>13 February 2017 </p>
+                            <a href="#">See you in sneakers!</a><br><br>
+                            <span class="glyphicon glyphicon-comment"> </span> 0
+                        </div>
+                    </div>
+                </li>
+                <hr>
+                <li>
+                    <div class="art2 container-fluid">
+                        <div class="col-sm-5 img2">
+                            <img src="http://cdn.shopify.com/s/files/1/1774/5405/articles/blog2-min_1024x1024.jpg?v=1487839767" alt="We never stop, achieving this goal.">
+                        </div>
+                        <div class="col-sm-7 info2">
+                            <p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>13 February 2017 </p>
+                            <a href="#">We never stop, achieving this goal.</a><br><br>
+                            <span class="glyphicon glyphicon-comment"> </span> 0
+                        </div>
+                    </div>
+                </li>
+                <hr>
+                <li>
+                    <div class="art3 container-fluid">
+                        <div class="col-sm-5 img3">
+                            <img src="http://cdn.shopify.com/s/files/1/1774/5405/articles/blog3-min_1024x1024.jpg?v=1487839792" alt="We’d love to hear your feedback on our product.">
+                        </div>
+                        <div class="col-sm-7 info3">
+                            <p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>13 February 2017 </p>
+                            <a href="#">We’d love to hear your feedback on...</a><br><br>
+                            <span class="glyphicon glyphicon-comment"> </span> 0
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="tab_box container-fluid">
+                <h3>tags</h3>
+                <div class="tagss container-fluid">
+                        <a href="#"><span class="glyphicon glyphicon-tag"> </span> Boots</a>
+                        <a href="#"><span class="glyphicon glyphicon-tag"> </span> Hi Tops</a>
+                        <a href="#"><span class="glyphicon glyphicon-tag"> </span> Lace Ups</a><br>
+                        <a href="#"><span class="glyphicon glyphicon-tag"> </span> Mid Tops</a>
+                        <a href="#"><span class="glyphicon glyphicon-tag"> </span> Slip Ons</a>
+                </div>
+            </div>
+            <div class="container-fluid comment_box">
+                <h3>Comments</h3>
+                <a href="#">
+                    <div>
+                        I love your store! There is the largest selection of products of the exceptional quality and the lowest prices like...
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-8 right_column">
+        <h3>blog</h3>
+        <div class="container-fluid content1">
+           <a href="#"><h2>See yoo in sneakers!</h2></a>
+            <p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>13 Feb 2017 | David Braun | 0 Comments</p>
+            <div class="content1img">
+                <img src="http://cdn.shopify.com/s/files/1/1774/5405/articles/blog1-min_1024x1024.jpg?v=1487839818" alt="See you in sneakers!">
+            </div>
+            <p>Many of our customers visit our store from the age of… several months. See you in sneakers! Always. Lace Ups Slip Ons Mid Tops Hi Tops Boots Regardless, of where you are, your...</p>
+            <div class="tagss">
+                <a href="#"><span class="glyphicon glyphicon-tag"> </span> Boots</a>
+                <a href="#"><span class="glyphicon glyphicon-tag"> </span> Hi Tops</a>
+                <a href="#"><span class="glyphicon glyphicon-tag"> </span> Mid Tops</a>
+            </div><br>
+            <div class="btn_toolbar row">
+                <a href="#">
+                    Read More
+                </a>
+            </div>
+        </div>
+        <hr>
+        <div class="container-fluid content2">
+            <a href="#"><h2>We never stop, achieving this goal.</h2></a>
+            <p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>13 Feb 2017 | David Braun | 0 Comments</p>
+            <div class="content1img">
+                <img src="http://cdn.shopify.com/s/files/1/1774/5405/articles/blog2-min_1024x1024.jpg?v=1487839767" alt="We never stop, achieving this goal.">
+            </div>
+            <p>Many of our customers visit our store from the age of… several months. See you in sneakers! Always. Lace Ups Slip Ons Mid Tops Hi Tops Boots Regardless, of where you are, your...</p>
+            <div class="tagss">
+                <a href="#"><span class="glyphicon glyphicon-tag"> </span> Boots</a>
+                <a href="#"><span class="glyphicon glyphicon-tag"> </span> Hi Tops</a>
+                <a href="#"><span class="glyphicon glyphicon-tag"> </span> Mid Tops</a>
+            </div><br>
+            <div class="btn_toolbar row">
+                <a href="#">
+                    Read More
+                </a>
+            </div>
+        </div>
+        <hr>
+        <div class="container-fluid content3">
+            <a href="#"><h2>We’d love to hear your feedback on our product.</h2></a>
+            <p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>13 Feb 2017 | David Braun | 0 Comments</p>
+            <div class="content1img">
+                <img src="http://cdn.shopify.com/s/files/1/1774/5405/articles/blog3-min_1024x1024.jpg?v=1487839792" alt="We’d love to hear your feedback on our product.">
+            </div>
+            <p>Many of our customers visit our store from the age of… several months. See you in sneakers! Always. Lace Ups Slip Ons Mid Tops Hi Tops Boots Regardless, of where you are, your...</p>
+            <div class="tagss">
+                <a href="#"><span class="glyphicon glyphicon-tag"> </span> Lace Ups</a>
+                <a href="#"><span class="glyphicon glyphicon-tag"> </span> Mid Tops</a>
+                <a href="#"><span class="glyphicon glyphicon-tag"> </span> Slip Ons</a>
+            </div><br>
+            <div class="btn_toolbar row">
+                <a href="#">
+                    Read More
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Remaning section-->
+<div id="footer"></div>
+
+
+<script src="../../JS/bootstrap.min.js"></script>
+<script src="../../JS/bootstrap.js"></script>
+</body>
+</html>

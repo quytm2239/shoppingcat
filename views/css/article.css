@@ -1,0 +1,118 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+nav {
+    margin-bottom: 25px;
+}
+nav a {
+    color: grey;
+    margin-left: 3px;
+    font-size: 17px;
+    font-family: 'Droid Sans', sans-serif;
+}
+/* thanh nav */
+
+.infor h4 {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+p.title-info {
+    font-weight: bold;
+    color: #868585;
+    font-size: 17px;
+}
+
+.infor input[type="text"] {
+    width: 132px;
+    height: 34px;
+    border: 1px solid #ccc;
+}
+
+.infor span {
+    color: #b3aeae;
+    margin-left: 6px;
+}
+/*  thông tin sản phẩm */
+.col-xs-3.col-sm-3.col-md-3.col-lg-3 {
+    border-left: 1px solid rgba(204, 204, 204, 0.36);
+}
+.introduction .col-xs-4.col-sm-4.col-md-4.col-lg-4 {
+    padding-left: 0px;
+}
+
+.pic {
+    border: 1px solid rgba(204, 204, 204, 0.66);
+    width: 372px;
+    border-radius: 3px;
+}
+
+.pic img {
+    margin-left: 3px;
+    padding: 1px 0px;
+}
+
+.infor {
+    margin-top: -8px;
+}
+.infor .row {
+    padding-left: 15px;
+}
+.money p {
+    color: skyblue;
+    font-size: 18px;
+    width: 200px;
+    float: left;
+}
+
+.money span {
+    color: rgba(195, 194, 194, 0.58);
+    margin-left: 10px;
+}
+span.colorgreen {
+    color: green;
+    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:16px;
+}
+
+p.colorgrey {
+    color: rgba(128, 128, 128, 0.51);
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+input[type="text"] {
+    width: 45px;
+    margin-right: 13px;
+}
+
+p.glyphicon.glyphicon-heart {
+    color: rgba(41, 46, 107, 0.61);
+    margin-top: 21px;
+    font-size: 17px;
+}
+
+.videooo h1 {
+    color: rgba(41, 40, 40, 0.78);
+    font-style: italic;
+    font-weight: bold;
+    margin-left: -16px;
+}
+
+.videooo p {
+    font-size: 18px;
+    color: rgba(47, 45, 45, 0.39);
+    margin-top: 13px;
+}
+
+.videooo h2 {
+    color: rgba(41, 40, 40, 0.78);
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+}
